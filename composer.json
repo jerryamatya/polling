@@ -1,0 +1,21 @@
+{
+    "name": "geniussystems-np/poll",
+    "description": "This is package for polling system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jerry",
+            "email": "lna.amatya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "GeniusSystems\\Poll\\": "src/"
+        }
+    },
+    "require": {
+        "coraxster/flysystem-aws-s3-v3-minio": "^1.0@dev"
+    }
+}
